@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using WebApiSGSorteios.Models;
+using Domain.Models;
 
 namespace WebApiSGSorteios.Services
 {

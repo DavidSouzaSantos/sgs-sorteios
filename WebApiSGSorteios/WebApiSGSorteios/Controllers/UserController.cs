@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 using WebApiSGSorteios.Dtos;
-using WebApiSGSorteios.Models;
+using Domain.Models;
 using WebApiSGSorteios.Services;
 
 namespace WebApiSGSorteios.Controllers

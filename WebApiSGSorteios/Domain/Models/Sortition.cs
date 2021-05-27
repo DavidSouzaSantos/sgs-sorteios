@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain.Models
+﻿namespace Domain.Models
 {
-    class Sortition
+    public class Sortition
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Domain.Models
 {
-    class Client
+    public class Client
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string FoneNumber { get; set; }
-        public List<ChosenNumber> chosenNumbers { get; set; }
+        public List<ChosenNumber> ChosenNumbers { get; set; }
     }
 }
